@@ -1,0 +1,59 @@
+@import "tailwindcss";
+
+.pto-slider {
+  -webkit-appearance: none;
+  appearance: none;
+  height: 12px;
+  background: #e5e7eb;
+  border-radius: 9999px;
+  outline: none;
+  cursor: pointer;
+}
+
+.pto-slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  background: #4f46e5;
+  border: 3px solid white;
+  box-shadow: 0 2px 8px rgba(79, 70, 229, 0.4);
+  cursor: pointer;
+  transition: transform 0.15s ease;
+}
+
+.pto-slider::-webkit-slider-thumb:hover {
+  transform: scale(1.15);
+}
+
+.pto-slider::-webkit-slider-thumb:active {
+  transform: scale(0.95);
+}
+
+.pto-slider::-moz-range-thumb {
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  background: #4f46e5;
+  border: 3px solid white;
+  box-shadow: 0 2px 8px rgba(79, 70, 229, 0.4);
+  cursor: pointer;
+}
+
+.pto-slider::-moz-range-track {
+  height: 12px;
+  background: #e5e7eb;
+  border-radius: 9999px;
+}
+
+/* Remove number input spinners */
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}

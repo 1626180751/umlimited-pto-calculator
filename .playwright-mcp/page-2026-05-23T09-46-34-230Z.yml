@@ -1,0 +1,105 @@
+- generic [ref=e4]:
+  - generic [ref=e5]:
+    - generic [ref=e6]:
+      - heading "Expose Your Unlimited PTO" [level=1] [ref=e7]
+      - paragraph [ref=e8]: See what your "unlimited" vacation policy is really costing you — and whether you’re coming out ahead.
+    - generic [ref=e9]:
+      - img [ref=e10]
+      - generic [ref=e13]:
+        - combobox [ref=e14]:
+          - option "EN" [selected]
+          - option "DE"
+          - option "FR"
+          - option "JP"
+          - option "ZH"
+        - img
+  - generic [ref=e15]:
+    - paragraph [ref=e16]: Country
+    - generic [ref=e17]:
+      - button "United States 15d avg · 10d hol" [ref=e18]:
+        - paragraph [ref=e20]: United States
+        - paragraph [ref=e21]: 15d avg · 10d hol
+      - button "United Kingdom 28d avg · 8d hol" [ref=e22]:
+        - paragraph [ref=e23]: United Kingdom
+        - paragraph [ref=e24]: 28d avg · 8d hol
+      - button "Australia 20d avg · 7d hol" [ref=e25]:
+        - paragraph [ref=e26]: Australia
+        - paragraph [ref=e27]: 20d avg · 7d hol
+      - button "Canada 15d avg · 10d hol" [ref=e28]:
+        - paragraph [ref=e29]: Canada
+        - paragraph [ref=e30]: 15d avg · 10d hol
+      - button "New Zealand 20d avg · 11d hol" [ref=e31]:
+        - paragraph [ref=e32]: New Zealand
+        - paragraph [ref=e33]: 20d avg · 11d hol
+      - button "Germany 25d avg · 10d hol" [ref=e34]:
+        - paragraph [ref=e35]: Germany
+        - paragraph [ref=e36]: 25d avg · 10d hol
+      - button "France 30d avg · 11d hol" [ref=e37]:
+        - paragraph [ref=e38]: France
+        - paragraph [ref=e39]: 30d avg · 11d hol
+      - button "Singapore 14d avg · 11d hol" [ref=e40]:
+        - paragraph [ref=e41]: Singapore
+        - paragraph [ref=e42]: 14d avg · 11d hol
+      - button "Japan 15d avg · 16d hol" [ref=e43]:
+        - paragraph [ref=e44]: Japan
+        - paragraph [ref=e45]: 15d avg · 16d hol
+  - generic [ref=e46]:
+    - generic [ref=e47]:
+      - heading "Your Details" [level=2] [ref=e48]
+      - generic [ref=e49]:
+        - generic [ref=e50]: Base Salary
+        - generic [ref=e51]:
+          - generic [ref=e52]:
+            - generic [ref=e53]: $
+            - spinbutton "Base Salary" [ref=e54]: "100000"
+          - combobox [ref=e55]:
+            - option "$" [selected]
+            - option "£"
+            - option "€"
+            - option "¥"
+            - option "A$"
+            - option "C$"
+            - option "NZ$"
+            - option "S$"
+            - option "₽"
+      - generic [ref=e56]:
+        - generic [ref=e57]:
+          - generic [ref=e58]: Public Holidays
+          - generic [ref=e60]: "10"
+        - slider "Public Holidays" [ref=e61] [cursor=pointer]: "10"
+        - generic [ref=e62]:
+          - generic [ref=e63]: 0 days
+          - generic [ref=e64]: 30 days
+      - generic [ref=e65]:
+        - generic [ref=e66]:
+          - generic [ref=e67]: Planned PTO Days
+          - generic [ref=e68]: "10"
+        - slider "Planned PTO Days" [ref=e69] [cursor=pointer]: "10"
+        - generic [ref=e70]:
+          - generic [ref=e71]: 0 days
+          - generic [ref=e72]: 50 days
+    - generic [ref=e73]:
+      - heading "Your Results" [level=2] [ref=e74]
+      - generic [ref=e75]:
+        - paragraph [ref=e76]: Your True Daily Rate
+        - paragraph [ref=e77]: $416.67
+        - paragraph [ref=e78]: per actual working day
+      - generic [ref=e79]:
+        - paragraph [ref=e80]: Time Breakdown
+        - generic [ref=e81]:
+          - generic "Work Days" [ref=e82]: 240d
+          - generic "Holidays" [ref=e83]
+          - generic "PTO" [ref=e84]
+        - generic [ref=e85]:
+          - generic [ref=e86]: Work Days (240d)
+          - generic [ref=e88]: Holidays (10d)
+          - generic [ref=e90]: PTO (10d)
+      - generic [ref=e93]:
+        - img [ref=e95]
+        - generic [ref=e97]:
+          - paragraph [ref=e98]: Money Left on the Table
+          - paragraph [ref=e99]: You are essentially donating $2,083.33 of free labor compared to the United States market average of 15 days.
+      - link "Share to X" [ref=e100] [cursor=pointer]:
+        - /url: https://twitter.com/intent/tweet?text=My%20true%20daily%20rate%20is%20%24416.67%20because%20I%20calculate%20my%20PTO%20value.%20Don%E2%80%99t%20leave%20money%20on%20the%20table%3A%20https%3A%2F%2Fptocalc.app
+        - img [ref=e101]
+        - text: Share to X

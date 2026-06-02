@@ -1,0 +1,50 @@
+- generic [ref=e4]:
+  - generic [ref=e5]:
+    - heading "Expose Your Unlimited PTO" [level=1] [ref=e6]
+    - paragraph [ref=e7]: See what your “unlimited” vacation policy is really costing you — and whether you’re coming out ahead.
+  - generic [ref=e8]:
+    - generic [ref=e9]:
+      - heading "Your Details" [level=2] [ref=e10]
+      - generic [ref=e11]:
+        - generic [ref=e12]: Country
+        - combobox "Country" [ref=e13]:
+          - option "United States — 15 days avg." [selected]
+          - option "United Kingdom — 28 days avg."
+          - option "Australia — 20 days avg."
+          - option "Canada — 15 days avg."
+          - option "New Zealand — 20 days avg."
+          - option "Germany — 25 days avg."
+          - option "France — 30 days avg."
+          - option "Singapore — 14 days avg."
+          - option "Japan — 15 days avg."
+      - generic [ref=e14]:
+        - generic [ref=e15]: Base Salary
+        - generic [ref=e16]:
+          - generic [ref=e17]: $
+          - spinbutton "Base Salary" [ref=e18]: "100000"
+      - generic [ref=e19]:
+        - generic [ref=e20]:
+          - generic [ref=e21]: Planned PTO Days
+          - generic [ref=e22]: "10"
+        - slider "Planned PTO Days" [ref=e23] [cursor=pointer]: "10"
+        - generic [ref=e24]:
+          - generic [ref=e25]: 0 days
+          - generic [ref=e26]: 50 days
+    - generic [ref=e27]:
+      - heading "Your Results" [level=2] [ref=e28]
+      - generic [ref=e29]:
+        - paragraph [ref=e30]: Your True Daily Rate
+        - paragraph [ref=e31]: $400.00
+        - paragraph [ref=e32]: per actual working day
+      - generic [ref=e34]:
+        - img [ref=e36]
+        - generic [ref=e38]:
+          - paragraph [ref=e39]: Money Left on the Table
+          - paragraph [ref=e40]: You are essentially donating $2,000.00 of free labor compared to the United States market average of 15 days.
+      - generic [ref=e41]:
+        - generic [ref=e42]:
+          - generic [ref=e43]: "Your PTO: 10d"
+          - generic [ref=e44]: "Baseline: 15d"
+        - generic [ref=e48]:
+          - generic [ref=e49]: "0"
+          - generic [ref=e50]: "23"

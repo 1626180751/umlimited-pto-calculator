@@ -1,0 +1,50 @@
+- generic [ref=e4]:
+  - generic [ref=e5]:
+    - heading "Expose Your Unlimited PTO" [level=1] [ref=e6]
+    - paragraph [ref=e7]: See what your “unlimited” vacation policy is really costing you — and whether you’re coming out ahead.
+  - generic [ref=e8]:
+    - button "American" [ref=e9]
+    - button "British" [ref=e10]
+    - button "Australian" [ref=e11]
+    - button "Canadian" [ref=e12]
+    - button "New Zealand" [ref=e13]
+    - button "German" [ref=e14]
+    - button "French" [ref=e15]
+    - button "Singaporean" [ref=e16]
+    - button "Japanese" [ref=e17]
+    - button "Russian" [ref=e18]
+    - button "Chinese" [ref=e19]
+  - generic [ref=e20]:
+    - generic [ref=e21]:
+      - heading "Your Details" [level=2] [ref=e22]
+      - generic [ref=e23]:
+        - generic [ref=e24]: Base Salary
+        - generic [ref=e25]:
+          - generic [ref=e26]: $
+          - spinbutton "Base Salary" [ref=e27]: "100000"
+      - generic [ref=e28]:
+        - generic [ref=e29]:
+          - generic [ref=e30]: Planned PTO Days
+          - generic [ref=e31]: "10"
+        - slider "Planned PTO Days" [ref=e32] [cursor=pointer]: "10"
+        - generic [ref=e33]:
+          - generic [ref=e34]: 0 days
+          - generic [ref=e35]: 50 days
+    - generic [ref=e36]:
+      - heading "Your Results" [level=2] [ref=e37]
+      - generic [ref=e38]:
+        - paragraph [ref=e39]: Your True Daily Rate
+        - paragraph [ref=e40]: $400.00
+        - paragraph [ref=e41]: per actual working day
+      - generic [ref=e43]:
+        - img [ref=e45]
+        - generic [ref=e47]:
+          - paragraph [ref=e48]: Money Left on the Table
+          - paragraph [ref=e49]: You are essentially donating $2,000.00 of free labor compared to the United States market average of 15 days.
+      - generic [ref=e50]:
+        - generic [ref=e51]:
+          - generic [ref=e52]: "Your PTO: 10d"
+          - generic [ref=e53]: "Baseline: 15d"
+        - generic [ref=e57]:
+          - generic [ref=e58]: "0"
+          - generic [ref=e59]: "23"
